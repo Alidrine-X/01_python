@@ -1,8 +1,7 @@
-# Veckouppgift 1-4-1
-
+# Programmering med Python
+# Veckouppgift 1
 # 4 Fler övningar
 # ----------------------------------------------------------------
-
 # Lite mer avancerad nivå.
 #
 # 1a Det är ca 470 km mellan Stockholm och Göteborg.
@@ -18,10 +17,14 @@
 # 60 % 60 == 0  (ingen rest)
 # 70 % 60 == 10  (10 i rest)
 # Be en AI förklara heltalsdivision och modulo i Python om du känner dig osäker!
+# ----------------------------------------------------------------
 
+print("")
+print("----------------------------------------------------------------")
 # ----------------------------------------------------------------
 # 4-1a
 print("Uppgift 1-4-1a")
+print("")
 
 distance = 470  # 470 km
 speed = input("Ange i km/tim, vilken hastighet man får köra i? ")
@@ -30,10 +33,10 @@ print("Det tar " + str(time) + " timmar att köra sträckan")
 
 print("")
 print("----------------------------------------------------------------")
-
 # ----------------------------------------------------------------
 # 4-1b
 print("Uppgift 1-4-1b")
+print("")
 
 distance = 470  # 470 km
 speed = input("Ange i km/tim, vilken hastighet man får köra i? ")
@@ -42,12 +45,12 @@ print("Det tar " + str(time) + " minuter att köra sträckan")
 
 print("")
 print("----------------------------------------------------------------")
-
 # ----------------------------------------------------------------
 # 4-1c
 print("Uppgift 1-4-1c")
-# time = distance / speed
+print("")
 
+# time = distance / speed
 distance = 470  # 470 km mellan Stockholm - Göteborg
 speed = int(input("Ange i km/tim, vilken hastighet man får köra i? "))
 hours = distance // speed
@@ -56,5 +59,4 @@ print("Det tar " + str(hours) + " timmar och " + str(minutes) + " minuter att k�
 
 print("")
 print("----------------------------------------------------------------")
-
 # ----------------------------------------------------------------
