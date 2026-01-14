@@ -46,12 +46,12 @@ print("----------------------------------------------------------------")
 # ----------------------------------------------------------------
 # 4-1c
 print("Uppgift 1-4-1c")
-# a == (a // b) * b + (a % b)
+# time = distance / speed
 
-distance = 470  # 470 km
+distance = 470  # 470 km mellan Stockholm - Göteborg
 speed = int(input("Ange i km/tim, vilken hastighet man får köra i? "))
 hours = distance // speed
-minutes = distance % speed
+minutes = round((distance % speed) / speed * 60)
 print("Det tar " + str(hours) + " timmar och " + str(minutes) + " minuter att köra sträckan.")
 
 print("")
