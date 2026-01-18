@@ -21,9 +21,11 @@ print("----------------------------------------------------------------")
 print("Uppgift 1-3-1a")
 print("")
 
-integer_input = input("Ange ett heltal: ")
-integer_int = int(integer_input)
-print("Du skrev talet: " + str(integer_int))
+# Användaren ombeds skriva in ett tal
+# Inmatat värde omvandlas till ett heltal och skrivs ut
+value_input = input("Ange ett heltal: ")
+value_int = int(value_input)
+print("Du skrev talet: " + str(value_int))
 
 print("")
 print("----------------------------------------------------------------")
@@ -32,9 +34,16 @@ print("----------------------------------------------------------------")
 print("Uppgift 1-3-1b")
 print("")
 
-integer_1 = int(input("Ange ett heltal: "))
-integer_2 = int(input("Ange ett heltal till: "))
-print("Summan av talen är: " + str(integer_1 + integer_2))
+# Användaren ombeds skriva in två tal
+value_1 = input("Ange ett heltal: ")
+value_2 = input("Ange ett heltal till: ")
+
+# Inmatade värden omvandlas till heltal
+value_1_int = int(value_1)
+value_2_int = int(value_2)
+
+# Summera och skriv ut inmatade tal
+print("Summan av talen är: " + str(value_1_int + value_2_int))
 
 print("")
 print("----------------------------------------------------------------")

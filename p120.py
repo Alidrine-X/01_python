@@ -8,9 +8,9 @@
 
 # x = 100  # biljettpris
 # y = 200  # pengar på fickan
-# print("Det blir " + (y - x) " kronor över.")
-# z = y - x / 2
-# print("Varje person får " + z)
+# print("Det blir " + (y - x) " kronor över.")  # Saknar str() och plustecken efter
+# z = y - x / 2                                 # Saknar parentes om y-x, som ska räknas ut före division med 2
+# print("Varje person får " + z)                # Saknar str() (och ev int() om det önskas och inte används på fg rad)
 
 # Försök rätta fel, så att programmet kan ge rätt svar.
 # Hitta på bättre namn, i stället för x, y och z.
@@ -26,8 +26,17 @@ print("")
 # Räkna ut hur mycket pengar vardera person får efter att biljetten är betalad
 price = 100 # biljettpris
 wallet = 200 # pengar på fickan
+split_in_half = int((wallet - price)/ 2)
+
 print("Det blir " + str(wallet - price) + " kronor över.")
-print("Varje person får " + str(int((wallet - price)/2)) + " kronor.")
+print("Varje person får " + str(split_in_half) + " kronor.")
+
+# Annan lösning i gruppen att kommatecken kan användas, istället för plustecken och str()
+# Notera att blanktecken utelämnats efter/före i textsträngarna, annars blir det
+# dubbla blanka när det skrivs ut
+#print("Det blir" , (wallet - price), "kronor över.")
+#split_in_half = (wallet - price)/ 2
+#print("Varje person får", int(split_in_half))
 
 print("")
 print("----------------------------------------------------------------")

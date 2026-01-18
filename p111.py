@@ -15,7 +15,7 @@ print("----------------------------------------------------------------")
 print("Uppgift 1-1-1")
 print("")
 
-# Hälsa världen välkommen och presentera vem som skapat programmet
+# Hälsar världen välkommen och presenterar vem som har skapat programmet
 developer = "Lena"
 print("Hello World")
 print("This program was created by " + developer)

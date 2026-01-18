@@ -21,6 +21,8 @@ print("----------------------------------------------------------------")
 print("Uppgift 1-3-2a")
 print("")
 
+# Ursprungligt pris är 2000 kr men kostar nu på rea, 75% av det priset.
+# Skriver ut slutpriset
 pris = 2000
 rea_procent = 75.0
 slut_pris = pris * rea_procent / 100
@@ -34,9 +36,13 @@ print("----------------------------------------------------------------")
 print("Uppgift 1-3-2b")
 print("")
 
+# Ursprungligt pris är 2000.
+# Användaren anger vilken rabatt i procent det är på jackan
+# Skriver ut slutpriset efter att rabatten är dragen från ursprungligt pris
 pris = 2000
-rea_procent = float(input("Ange en procentsats: "))
-slut_pris = pris - (pris * rea_procent / 100)
+rea_procent = input("Ange rabatten i procent: ")
+rea_procent_int = int(rea_procent)
+slut_pris = pris - (pris * rea_procent_int / 100)
 
 print("Jackans slutpris: " + str(slut_pris))
 

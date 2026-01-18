@@ -11,7 +11,7 @@
 print("")
 print("----------------------------------------------------------------")
 
-# Importera modulen (paketet) datetime för att kunna använda
+# Importera modulen datetime för att kunna använda;
 # funktionen date till att hämta dagens datum och
 # funktionen timedelta för att addera antal dagar till dagens datum
 import datetime
@@ -21,6 +21,7 @@ import datetime
 print("Uppgift 1-4-3a")
 print("")
 
+# Hämta dagens datum mha datetime och skriv ut det
 today = datetime.date.today()
 print("Dagens datum är: " + str(today))
 
@@ -30,8 +31,11 @@ print("----------------------------------------------------------------")
 print("Uppgift 1-4-3b")
 print("")
 
+# Hämta dagens datum mha datetime
+# Beräkna vilket datum det är om 7 dagar mha timedelta och skriv ut det
 today = datetime.date.today()
 add_days = today + datetime.timedelta(days=7)
+
 print("Det nya datumet är: " + str(add_days))
 
 print("")

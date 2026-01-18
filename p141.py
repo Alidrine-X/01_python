@@ -26,6 +26,9 @@ print("----------------------------------------------------------------")
 print("Uppgift 1-4-1a")
 print("")
 
+# Sträckan är 470. Användaren matar in hastigheten.
+# Körtid i hela timmar beräknas och skrivs ut.
+# time = distance / speed
 distance = 470  # 470 km
 speed = input("Ange i km/tim, vilken hastighet man får köra i? ")
 time = round(distance / int(speed))
@@ -38,9 +41,13 @@ print("----------------------------------------------------------------")
 print("Uppgift 1-4-1b")
 print("")
 
+# Sträckan är 470. Användaren matar in hastigheten.
+# Körtid i minuter beräknas och skrivs ut.
+# time = distance / speed
 distance = 470  # 470 km
 speed = input("Ange i km/tim, vilken hastighet man får köra i? ")
 time = round(distance / int(speed) * 60)
+
 print("Det tar " + str(time) + " minuter att köra sträckan")
 
 print("")
@@ -50,11 +57,14 @@ print("----------------------------------------------------------------")
 print("Uppgift 1-4-1c")
 print("")
 
+# Sträckan är 470. Användaren matar in hastigheten.
+# Körtid i timmar och minuter beräknas och skrivs ut.
 # time = distance / speed
 distance = 470  # 470 km mellan Stockholm - Göteborg
 speed = int(input("Ange i km/tim, vilken hastighet man får köra i? "))
 hours = distance // speed
 minutes = round((distance % speed) / speed * 60)
+
 print("Det tar " + str(hours) + " timmar och " + str(minutes) + " minuter att köra sträckan.")
 
 print("")
